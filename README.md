@@ -52,7 +52,7 @@ This project, **Text Prediction**, leverages advanced natural language processin
 Ensure you have the following installed:
 - Python 3.8 or higher
 - Git
-- Jupyter Notebook or Google Colab
+- Google Colab
 
 ### **Steps to Install**
 
@@ -76,9 +76,10 @@ Ensure you have the following installed:
 
 ## **How to Run**
 
-1. Launch the Jupyter Notebook.
+1. Launch the Colab Notebook.
 2. Open `TextPrediction.ipynb`.
 3. Execute each cell in sequence to:
+   - Change the data to be trained (if required).
    - Preprocess the data.
    - Train the language model.
    - Test the text prediction functionality.
@@ -92,7 +93,7 @@ Ensure you have the following installed:
    - Splitting data into training and testing sets.
 
 2. **Model Training:**
-   - Using pre-trained models or training from scratch using libraries like TensorFlow or PyTorch.
+   - Training from scratch using TensorFlow.
 
 3. **Prediction:**
    - Implementing a mechanism to generate text predictions based on input context.
